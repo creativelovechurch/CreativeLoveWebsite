@@ -11,13 +11,9 @@ var images = Array("./images/slideshow/1.jpg",
                     "./images/slideshow/5.jpg",
                     "./images/slideshow/6.jpg",
                     "./images/slideshow/7.jpg",
-                    "./images/slideshow/8.jpg",
-                    "./images/slideshow/9.jpg",
-                    "./images/slideshow/10.jpg",
-                    "./images/slideshow/11.jpg",
-                    "./images/slideshow/12.jpg");
+                    "./images/slideshow/8.jpg");
 
-$([images[0],images[1],images[2],images[3],images[4],images[5],images[6],images[7],images[8],images[9],images[10],images[11],images[12]]).preload();
+$([images[0],images[1],images[2],images[3],images[4],images[5],images[6],images[7],images[8]]).preload();
 
 // Usage:
 

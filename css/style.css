@@ -479,7 +479,7 @@ li.nav-item .btn-white {
     display: flex;
     justify-content: center; } }
 
-/* .modal-transparent */
+/* .modal-transparent
 
 .modal-transparent {
   background: transparent;
@@ -494,6 +494,7 @@ li.nav-item .btn-white {
   opacity: .75;
   filter: alpha(opacity=75);
 }
+*/
 
 /* 
 
@@ -517,7 +518,7 @@ li.nav-item .btn-white {
 }
 
 /* .modal-fullscreen size: we use Bootstrap media query breakpoints */
-
+/*
 .modal-fullscreen .modal-dialog {
   margin: 0;
   margin-right: 0;
@@ -540,7 +541,7 @@ li.nav-item .btn-white {
 .modal-content {
   height: 100%;
   border-radius: 0;
-}
+}*/
 
 /* centering styles for jsbin */
 html,
@@ -569,5 +570,65 @@ hr
   color: #ffffff;
   background-color: #ffffff;
   border: none;
+}
+
+/* rows with right divider line */
+
+.border-between > [class*='col-']:before {
+   background: #e3e3e3;
+   bottom: 0;
+   content: " ";
+   left: 0;
+   position: absolute;
+   width: 1px;
+   top: 0;
+    color: rgba(255, 255, 255, 0.75);
+
+}
+
+.border-between > [class*='col-']:first-child:before {
+   display: none;
+}
+
+/* Responsive Google Map Embed */
+
+.frame-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.frame-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* Modal for Youtube video */
+
+body {margin:2rem;}
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
 }
 

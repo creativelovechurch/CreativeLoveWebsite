@@ -45,7 +45,6 @@
 								<a class="nav-link" href="connect.html">Connect</a>
 							</li>
 							<ul class="social">
-
 								<li><a href="https://www.facebook.com/creativelovechurch/?ref=page_internal" title="Facebook" class="fa fa-facebook"></a></li>
 								<li><a href="https://www.instagram.com/creativelovechurch/" title="Instagram" class="fa fa-instagram"></a></li>
 								<li><a href="https://soundcloud.com/creativelovechurch" title="SoundCloud" class="fa fa-soundcloud"></a></li>
@@ -64,55 +63,95 @@
 				<div class="cover-inner container">
 					<h1 class="jumbotron-heading"><font color="white">Connecting people to God's<br><b>Creative Love</b><strong></strong></h1></font>
 					<p class="lead"></p>
-					<p>
-						<button class="btn btn-primary btn-lg mb-2 mr-2 ml-2" data-toggle="modal" data-target="#modal-fullscreen">Watch Video</button>
-						<a href="aboutus.html" class="btn btn-outline-white btn-lg mb-2 ml-2 ml-2">Learn More</a>
-					</p>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary btn-lg mb-2 mr-2 ml-2 video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/SsQGlB1ZG-I" data-target="#myModal">
+						Watch Video
+					</button>
+
+					<a href="aboutus.html" class="btn btn-outline-white btn-lg mb-2 ml-2 ml-2">Learn More</a>
 				</div>
 			</div>
-
-			<div id="modal-fullscreen" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-					</div >
+			<div class="container">
+				<br>
+				<h3>Visit us Sundays at 10:30 AM!</h3>
+				<br>
+				<div class="row">
+					<div class="row">
+						<div class="col-sm-5">
+							<br><h3>Creative Love Church is a <i>pre-launch</i> house church in Burnsville, MN.</h3>
+							<br>
+							<h4>Address:<br>
+								1804 Raleigh Drive<br>
+							Burnsville, MN, 55337</h4><br>
+						</div>
+						<div class="col-sm-7">
+							<div class="frame-responsive">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.025685325465!2d-93.25055338454668!3d44.800665179098694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f630034c909113%3A0x1e213771f092427f!2s1804+Raleigh+Dr%2C+Burnsville%2C+MN+55337!5e0!3m2!1sen!2sus!4v1551922299212" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="divider"></div>
+					<div class="row">
+						<div class="col-sm-5">
+							<div class="frame-responsive">
+								<img src="images/oak-grove.JPG" alt="Oak Grove Middle School Pic" style="width:473px;height:355px;"></img>
+							</div>
+						</div>
+						<div class="col-sm-1">
+						</div>
+						<div class="col-sm-6">
+							<br>
+							<p class="lead">
+								<h3>We are launching September 8th, 2019 at Oak Grove Middle School in Bloomington Minnesota!<br>God is good!</h3>
+							</p>
+						</div>
+					</div>
 					<br>
-					<div class="container">
+				</div>
+			</div>
+			<div>
 
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/SsQGlB1ZG-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+			</section>
+			<div class="container-fluid">
+				<div class="divider"></div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 text-center text-md-left mt-2 mb-3 pt-1">
+						<p class="copyright">Copyright &copy; Creative Love Church. All rights reserved.</p>
 					</div>
-					<div class="modal-footer">
-
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<div class="col-md-6 text-center text-md-right mb-4">
+						<ul class="social">
+							<div class="clear"></div>
+						</ul>
 					</div>
 				</div>
 			</div>
+		</footer>
 
-		</section>
-		<div class="container-fluid">
-			<div class="divider"></div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 text-center text-md-left mt-2 mb-3 pt-1">
-					<p class="copyright">Copyright &copy; Creative Love Church. All rights reserved.</p>
-				</div>
-				<div class="col-md-6 text-center text-md-right mb-4">
-					<ul class="social">
-						<div class="clear"></div>
-					</ul>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>        
+						<!-- 16:9 aspect ratio -->
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
+		</div> 
 
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/jquery-3.1.1.min.js"></script>
-	<script src="js/modal.js"></script>
-	<script src="js/slideshow.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/modal.js"></script>
+		<script src="js/slideshow.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
-</body>
-</html>
+	</body>
+	</html>
