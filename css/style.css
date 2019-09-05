@@ -631,3 +631,7 @@ body {margin:2rem;}
   color:#fff;
   opacity:1;
 }
+
+.jumbotron-heading {
+  text-shadow: 2px 2px 7px #168DC7;
+}
