@@ -635,3 +635,14 @@ body {margin:2rem;}
 .jumbotron-heading {
   text-shadow: 2px 2px 7px #168DC7;
 }
+
+#top-banner {
+  background-color: rgb(255, 94, 0);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+#copyright {
+  text-align: center;
+}
